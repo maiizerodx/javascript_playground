@@ -40,3 +40,11 @@ var o = Math.floor(Math.random() * 11); //generate random number between 0 and 1
 // document.getElementById("demo_display").innerHTML += "<br>Value of O :"+o;
 
 
+function myFunction() {
+    let x_value = document.querySelector("#input_X").value;
+    let y_value = document.querySelector("#input_Y").value;
+
+    let z= parseInt(x_value) + parseInt(y_value);
+
+    document.getElementById("demo_display").innerHTML = "Sum of x and y is : "+z;
+}
