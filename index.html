@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="src/style.css" rel="stylesheet" />
+    <script src="src/script.js"></script>
+  </head>
+  <body>
+    <div class="text-3xl bg-blue-600 text-white p-3">
+      JAVASCRIPT PLAYGROUND 1
+    </div>
+    <div class="p-4 grid grid-cols-2 gap-4">
+      <div class="card bg-base-100 shadow-md border p-5">
+        <div class="form-control w-full max-w-xs">
+          <div class="label">
+            <span class="label-text">What is the value of X?</span>
+          </div>
+          <input
+            type="text"
+            placeholder="X Type here"
+            class="input input-bordered w-full max-w-full"
+            id="input_X"
+          />
+        </div>
+        <div class="form-control w-full max-w-xs">
+          <div class="label">
+            <span class="label-text">What is the value of Y?</span>
+          </div>
+          <input
+            type="text"
+            placeholder="Y Type here"
+            class="input input-bordered w-full max-w-full"
+            id="input_Y"
+          />
+        </div>
+        <hr class="my-3" />
+        <button class="btn">Submit</button>
+      </div>
+      <div class="card bg-base-100 shadow-xl">
+
+        <div class="card-body">
+          <h2 class="card-title">Display</h2>
+          <p id="demo_display"></p>
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
